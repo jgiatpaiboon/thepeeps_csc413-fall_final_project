@@ -1,0 +1,38 @@
+fieldset{
+    background-color: #29c8dd;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  
+  label{
+    display: block;
+  }
+  input {
+    border-radius: 25px;
+    display: block;
+    width: 100%;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  } 
+  
+  input:focus{
+    outline: none;
+  }
+  
+  button {
+    border-radius: 25px;
+    padding: 6px 10px;
+    margin-top: 5px;
+    width: 100%;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  } 
+    button:hover {
+    background: #ccc;
+  }

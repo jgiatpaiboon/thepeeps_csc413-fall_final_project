@@ -1,0 +1,36 @@
+  /*Styling Top Nav*/
+  .topnav {
+    overflow: hidden;
+    
+  }
+  
+  .topnav h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    font-size: 17px;
+    float: none;
+    justify-content: center;
+  }
+  .topnav li {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 13px 20px;
+    margin-right: 2px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav li:hover {
+    background-color: #33f8ff;
+    border-radius: 300px;
+    border: 1px solid white;
+    color: black;
+  }
+  
+  .topnav li.active {
+    background-color: #4CAF50;
+    color: white;
+  }
